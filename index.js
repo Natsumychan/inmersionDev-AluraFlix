@@ -1,4 +1,5 @@
-const movieLibrary= [
+(()=>{
+ const movieLibrary= [
  {
   name: "The Owl House",
   source: "./assets/owl-house.jpeg"
@@ -47,4 +48,7 @@ movieLibrary.map((movie,index) =>{
 })
 
  movieContainer.innerHTML= movieCard
+})
+
+()
    
